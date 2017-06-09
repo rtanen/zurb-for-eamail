@@ -22,31 +22,14 @@ subject: Upcoming Boston EA events
       <img src="http://127.0.0.1:8000/media/17.jpg" alt="">
     </columns>
     <columns large="8">
-      <h2><a href="http://127.0.0.1:8000/event/3/">Fun Event</a></h2>
-       <p class="date"><time datetime="2017-05-23T18:00:00-04:00">May 23, 2017, 6 p.m.</time>: <time datetime="2017-06-01T12:00:00-04:00">1 week, 1 day</time> long</p>
-       <p>CS Building 156, MIT Campus, Boston</p>
+      <h2><a href="http://127.0.0.1:8000/event/3/">{\{ event.name }}</a></h2>
+       <p class="date"><time>{\{ event.start_time }}</time>
+       <p>{\{ event.location }}</p>
     </columns>
   </row>
   <row>
     <columns large="12">
-      <p>The most common form of an ellipsis is a row of three periods or full stops (. . .) or a precomposed triple-dot glyph (…). The usage of the em dash (—) can overlap the usage of the ellipsis, especially in dialogue. Style guides often have their own rules governing the use of ellipses. For example, The Chicago Manual of Style recommends that an ellipsis be formed by typing three periods, each with a space on both sides.</p>
-    </columns>
-  </row>
-</container>
-
-<spacer size="16"></spacer>
-
-<container>
-  <row>
-    <columns large="8">
-      <h2>Filenaming session</h2>
-      <p class="date"><time datetime="2017-05-10T12:00:00-04:00">May 10, 2017, noon</time></p>
-     <p>Probably a classroom</p>
-     <p>Depending on their context and placement in a sentence, ellipses can indicate an unfinished thought, a leading statement, a slight pause, an echoing voice, or a nervous or awkward silence. Aposiopesis is the use of an ellipsis to trail off into silence—for example: &quot;But I thought he was . . .&quot; When placed at the beginning or end of a sentence, the ellipsis can also inspire a feeling of melancholy or longing.</p>
-     <a href="http://127.0.0.1:8000/event/2/">Permalink</a>
-    </columns>
-    <columns large="4" valign="center">
-      <img src="http://127.0.0.1:8000/media/15.jpg" alt="">
+      <p>{\{ event.location }} | The most common form of an ellipsis is a row of three periods or full stops (. . .) or a precomposed triple-dot glyph (…). The usage of the em dash (—) can overlap the usage of the ellipsis, especially in dialogue. Style guides often have their own rules governing the use of ellipses. For example, The Chicago Manual of Style recommends that an ellipsis be formed by typing three periods, each with a space on both sides.</p>
     </columns>
   </row>
 </container>
