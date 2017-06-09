@@ -1,10 +1,14 @@
-# Foundation for Emails Template
+# Email templating thingy
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
+This is a fork of <https://github.com/zurb/foundation-emails-template>.
 
-**Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
+This place is not a place of honor, no great deeds are commemmorated here, etc. The purpose of this project is to produce an HTML email that can then be converted into a Django template for <https://github.com/rtanen/eamail>.
 
-This is the official starter project for [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
+Once you have this running, look at the stuff actually being worked on by visiting <http://localhost:3000/ea-events.html>. Yes, it's not linked from the homepage.
+
+***
+
+This is a fork of the official starter project for [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
 
 - Handlebars HTML templates with [Panini](http://github.com/zurb/panini)
 - Simplified HTML email syntax with [Inky](http://github.com/zurb/inky)
@@ -58,7 +62,7 @@ Run `npm run litmus` to build as above, then submit to litmus for testing. *AWS 
 
 Run `npm run mail` to build as above, then send to specified email address for testing. *SMTP server details required (config.json)*
 
-Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services. 
+Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services.
 
 ### Speeding Up Your Build
 
@@ -127,4 +131,3 @@ Similar to the Litmus tests, you can have the emails sent to a specified email a
 For a full list of Litmus' supported test clients(applications) see their [client list](https://litmus.com/emails/clients.xml).
 
 **Caution:** AWS Service Fees will result, however, are usually very low do to minimal traffic. Use at your own discretion.
-
